@@ -1,0 +1,36 @@
+#type_in{
+	display: inline;
+	width: 50%;
+	height: 35px
+}
+#add_new{
+	display: inline;
+	padding: 7px;
+	height: 35px;
+	background: #C4C4EF;
+	color: white;
+}
+.main{
+	margin-top: 50px;
+}
+table{
+	margin-top: 50px;
+}
+.first{
+	text-align: left;
+	width: 70%;
+}
+.second,
+.third{
+	text-align: center;
+	width: 15%;
+}
+.checked{
+	background: #C5E7DE;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+i{
+	color: #8FA7F3;
+	cursor: pointer;
+}
