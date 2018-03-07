@@ -21,20 +21,31 @@
 <div class="container">
   <header>
     <h1>Minimalist to do list</h1>
-	</header>
-  <div>
-    <div class="main">
-	    <input type="text" id="type_in" class="form-control" placeholder="Type in to-do text.." >
-	  	<button type="button" id="add_new" class="btn btn-sm btn-default" >Add new</button>
-    </div>
-	  <table class="table">
-		  <thead>
-			  <th class="first">To-do text</th>
-			  <th class="second">Completed</th>
-			  <th class="third">Delete</th>
-		  </thead>
-	  </table>
-	 
+  </header>
+  <div class="main">
+	<article>
+      
+    </article>
+    <article>
+      <input type="text" id="type_in" class="form-control" placeholder="Type in to-do text.." >
+		<button type="button" id="add_new" class="btn btn-sm btn-default" >Add new</button>
+		<br><br><p>Or upload Yours!!</p><br>
+		<div clas="extra-filed">
+		<button id="export" class="btn btn-sm btn-default">Click here to download Your list!</button>
+		<label for="fileToLoad" class="btn btn-sm btn-default"> Find..
+		<input type="file" id="fileToLoad">
+		</label>
+		<button id="import" class="btn btn-sm btn-default">Done!</button>
+      </div>
+      <table class="table">
+      	<thead>
+        	<th class="first">To-do text</th>
+          	<th class="second">Completed</th>
+         	<th class="third">Delete</th>
+      	</thead>
+      </table>
+    </article>
+  </div>
 </div>
 </body>
 </html>

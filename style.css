@@ -34,3 +34,27 @@ i{
 	color: #8FA7F3;
 	cursor: pointer;
 }
+.extra-filed{
+	width: 960px;
+	overflow: hidden;
+}
+#export{
+	float: right;
+	display: inline;
+	background: #C4C4EF;
+}
+#import{
+	float: left;
+	display: inline;
+	background: #C4C4EF;
+	margin-right: 2%;
+	
+}
+#fileToLoad{
+	display: none;
+}
+
+label{
+	float:left;
+	margin-right: 2%;
+}
